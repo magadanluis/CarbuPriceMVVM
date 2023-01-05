@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/personal_preference">
+        <ListPreference
+            android:entries="@array/Buscar_tipo_lab"
+            android:entryValues="@array/Buscar_tipo_val"
+            android:key="list_preference_busqueda"
+            android:title="@string/preferencia_busqueda"/>
+        <MultiSelectListPreference
+            android:title="@string/preferencia_combustible"
+            android:key="list_preference_combustibles"
+            android:entries="@array/Combustible_deseado"
+            android:entryValues="@array/Combustible_deseado_val"
+            android:defaultValue="@array/Combustible_deseado_val"/>
+        <EditTextPreference
+            android:defaultValue="@string/Usuario"
+            android:key="usuario"
+            android:title="@string/nombreusuario"/>
+        <SwitchPreference
+            android:key="modoNoche"
+            android:title="@string/modoNoche"/>
+    </PreferenceCategory>
+</PreferenceScreen>

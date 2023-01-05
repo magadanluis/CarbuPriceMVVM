@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <fragment class="es.uniovi.carbupricemvvm.View.Fragments.ListaPreciosFragment"
+            android:id="@+id/gasolinera_list_frag"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+        </fragment>
+        <FrameLayout
+            android:id="@+id/gasolinera_details_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+            <fragment
+                android:id="@+id/gasolinera_details_frag"
+                class="es.uniovi.carbupricemvvm.View.Fragments.GasolineraDetalleFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

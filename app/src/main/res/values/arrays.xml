@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Buscar_tipo_lab">
+        <item name="Rotulo">@string/rotulo</item>
+        <item name="Localidad">@string/localidad</item>
+        <item name="Municipio">@string/municipio</item>
+        <item name="Direccion">@string/direccion</item>
+        <item name="Código Postal">@string/codigopostal</item>
+    </string-array>
+    <string-array name="Buscar_tipo_val">
+        <item name="Rotulo">1</item>
+        <item name="Localidad">2</item>
+        <item name="Municipio">3</item>
+        <item name="Direccion">4</item>
+        <item name="Código postal">5</item>
+    </string-array>
+    <string-array name="Combustible_deseado">
+        <item name="GasA">@string/GasoleoAPreference</item>
+        <item name="GasB">@string/GasoleoBPreference</item>
+        <item name="GasPrem">@string/GasoleoPremiumPreference</item>
+        <item name="Gas95E10">@string/Gasolina95E10Preference</item>
+        <item name="Gas95E5">@string/Gasolina95E5Preference</item>
+        <item name="Gas95E5Prem">@string/Gasolina95E5PremiumPreference</item>
+        <item name="Gas98E10">@string/Gasolina98E10Preference</item>
+        <item name="Gas98E5">@string/Gasolina98E5Preference</item>
+        <item name="Biod">@string/BiodieselPreference</item>
+        <item name="Hidr">@string/HidrogenoPreference</item>
+        <item name="Bioet">@string/BioetanolPreference</item>
+        <item name="Gnc">@string/GasNaturalComprimidoPreference</item>
+        <item name="Gnl">@string/GasNaturalLicuadoPreference</item>
+        <item name="Glp">@string/GasesLicuadosPetroleoPreference</item>
+    </string-array>
+    <string-array name="Combustible_deseado_val">
+        <item>@string/GasA</item>
+        <item>@string/GasB</item>
+        <item>@string/GasPrem</item>
+        <item>@string/Gas95E10</item>
+        <item>@string/Gas95E5</item>
+        <item>@string/Gas95E5Prem</item>
+        <item>@string/Gas98E10</item>
+        <item>@string/Gas98E5</item>
+        <item>@string/Biod</item>
+        <item>@string/Hidr</item>
+        <item>@string/Bioet</item>
+        <item>@string/Gnc</item>
+        <item>@string/Gnl</item>
+        <item>@string/Glp</item>
+    </string-array>
+</resources>

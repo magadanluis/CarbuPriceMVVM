@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/filtrarporciudad" />
+        <CheckBox
+            android:id="@+id/cbGijon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/Gijon" />
+        <CheckBox
+            android:id="@+id/cbOviedo"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Oviedo" />
+        <CheckBox
+            android:id="@+id/cbAviles"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Aviles" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/filtrarporrotulo" />
+        <CheckBox
+            android:id="@+id/cbRepsol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/Repsol" />
+        <CheckBox
+            android:id="@+id/cbCepsa"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Cepsa" />
+        <CheckBox
+            android:id="@+id/cbShell"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Shell" />
+        <CheckBox
+            android:id="@+id/cbBP"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/BP" />
+        <CheckBox
+            android:id="@+id/cbPetronor"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Petronor" />
+        <CheckBox
+            android:id="@+id/cbCampsa"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Campsa" />
+        <CheckBox
+            android:id="@+id/cbGalp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Galp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/filtrarporcombustible" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+            <CheckBox
+            android:id="@+id/cbGasoleoA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/GasoleoAPreference" />
+        <CheckBox
+            android:id="@+id/cbGasoleoB"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/GasoleoBPreference" />
+
+                <CheckBox
+                    android:id="@+id/cbGasoleoPremium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/GasoleoPremiumPreference" />
+
+                <CheckBox
+                    android:id="@+id/cbGasolina95E10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/Gasolina95E10Preference" />
+
+                <CheckBox
+                    android:id="@+id/cbGasolina95E5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/Gasolina95E5Preference" />
+
+                <CheckBox
+                    android:id="@+id/cbGasolina95E5Premium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/Gasolina95E5PremiumPreference" />
+
+                <CheckBox
+                    android:id="@+id/cbGasolina98E10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/Gasolina98E10Preference" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <CheckBox
+                    android:id="@+id/cbGasolina98E5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/Gasolina98E5Preference" />
+
+                <CheckBox
+            android:id="@+id/cbBiodiesel"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/BiodieselPreference" />
+
+                <CheckBox
+                    android:id="@+id/cbHidrogeno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/HidrogenoPreference" />
+
+                <CheckBox
+            android:id="@+id/cbBioetanol"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/BioetanolPreference" />
+        <CheckBox
+            android:id="@+id/cbGasNatCompr"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/GasNaturalComprimidoPreference" />
+        <CheckBox
+            android:id="@+id/cbGasNatLic"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/GasNaturalLicuadoPreference" />
+        <CheckBox
+            android:id="@+id/cbGasLicPetr"
+            android:layout_width="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="32dp"
+            android:layout_height="wrap_content"
+            android:text="@string/GasesLicuadosPetroleoPreference" />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
